@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "typing-agent"
+version = "0.1.0"
+description = "Experimental pinyin-constrained language model decoding"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+model = ["torch>=2.6", "transformers>=4.51,<6", "pypinyin>=0.53,<1", "requests>=2.32,<3"]
+test = ["lupa>=2.6,<3", "pypinyin>=0.53,<1"]
+rime = ["PyYAML>=6,<7"]
+
+[tool.setuptools.packages.find]
+include = ["typing_agent*"]

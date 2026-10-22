@@ -1,0 +1,50 @@
+{
+  "scope": "Installed librime + Lua + real Qwen worker; no Windows window screenshot",
+  "context": "我想吃",
+  "fallback": [
+    {
+      "text": "苹果",
+      "comment": ""
+    },
+    {
+      "text": "平果",
+      "comment": ""
+    },
+    {
+      "text": "平锅",
+      "comment": ""
+    },
+    {
+      "text": "评过",
+      "comment": ""
+    },
+    {
+      "text": "评估",
+      "comment": ""
+    }
+  ],
+  "ai_candidates": [
+    {
+      "text": "苹果",
+      "comment": " AI"
+    },
+    {
+      "text": "平果",
+      "comment": ""
+    },
+    {
+      "text": "平锅",
+      "comment": ""
+    },
+    {
+      "text": "评过",
+      "comment": ""
+    },
+    {
+      "text": "评估",
+      "comment": ""
+    }
+  ],
+  "committed": "苹果",
+  "key_processing_ms": 26.5205999603495
+}

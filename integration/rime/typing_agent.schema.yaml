@@ -1,0 +1,16 @@
+# Independent schema; stock Luna Pinyin remains available.
+__include: luna_pinyin_simp.schema:/
+schema:
+  schema_id: typing_agent
+  name: 智能拼音 · Qwen
+  version: '0.1.0'
+  dependencies:
+    - luna_pinyin_simp
+__patch:
+  'engine/processors/@before 0': lua_processor@*typing_agent*processor
+  'engine/translators/@before 0': lua_translator@*typing_agent*translator
+  'translator/prism': typing_agent
+  'switches/+':
+    - name: next_word_prediction
+      reset: 1
+      states: [续写关, 续写开]

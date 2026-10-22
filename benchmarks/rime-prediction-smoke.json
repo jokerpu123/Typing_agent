@@ -1,0 +1,50 @@
+{
+  "scope": "Automatic zero-input prediction in actual librime; no F6 or next-word pinyin",
+  "context": "我想吃",
+  "predictions": [
+    {
+      "text": "一个",
+      "comment": " 预测"
+    },
+    {
+      "text": "一些",
+      "comment": " 预测"
+    },
+    {
+      "text": "东西",
+      "comment": " 预测"
+    },
+    {
+      "text": "巧克力",
+      "comment": " 预测"
+    },
+    {
+      "text": "一种",
+      "comment": " 预测"
+    }
+  ],
+  "accepted": "一个",
+  "commit_and_prediction_ms": 99.82110001146793,
+  "typing_after_dismissal": [
+    {
+      "text": "你好",
+      "comment": ""
+    },
+    {
+      "text": "妳好",
+      "comment": ""
+    },
+    {
+      "text": "逆号",
+      "comment": ""
+    },
+    {
+      "text": "拟好",
+      "comment": ""
+    },
+    {
+      "text": "你",
+      "comment": ""
+    }
+  ]
+}

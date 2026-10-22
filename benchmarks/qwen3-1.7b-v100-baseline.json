@@ -1,0 +1,151 @@
+{
+  "model_revision": "ea980cb0a6c2ae4b936e82123acc929f1cec04c1",
+  "weights_sha256": "6df85b39330e5a425ee36253d0f894e4387e4f0a15b9c53cb467d668e6b3a841",
+  "loading_environment": "HF_DEACTIVATE_ASYNC_LOAD=1; execution outside sandbox",
+  "model": "D:\\models\\Qwen3-1.7B-Base",
+  "beams": 4,
+  "groups": 2,
+  "torch": "2.6.0+cu124",
+  "device": "Tesla V100-SXM2-16GB",
+  "dtype": "torch.float16",
+  "gpu_peak_allocated_bytes": 3452944896,
+  "load_ms": 55440.98600000143,
+  "warm_median_ms": 397.2856000182219,
+  "warm_max_ms": 768.8097000354901,
+  "top1": 1.0,
+  "rows": [
+    {
+      "context": "我想吃一个新鲜的",
+      "pinyin": "pingguo",
+      "expected": "苹果",
+      "pass_name": "cold",
+      "candidates": [
+        "苹果",
+        "比唔过",
+        "披嗯果"
+      ],
+      "latency_ms": 3474.3479000171646,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "这个问题需要认真",
+      "pinyin": "kaolv",
+      "expected": "考虑",
+      "pass_name": "cold",
+      "candidates": [
+        "考虑",
+        "搞捋"
+      ],
+      "latency_ms": 570.6269000074826,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "我们明天一起去",
+      "pinyin": "gongyuan",
+      "expected": "公园",
+      "pass_name": "cold",
+      "candidates": [
+        "公园",
+        "红谷庵",
+        "红谷厂"
+      ],
+      "latency_ms": 696.4065000065602,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "这次出差的目的地是",
+      "pinyin": "chongqing",
+      "expected": "重庆",
+      "pass_name": "cold",
+      "candidates": [
+        "重庆",
+        "崇庆"
+      ],
+      "latency_ms": 356.5078999963589,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "陕西省的省会是",
+      "pinyin": "xi'an",
+      "expected": "西安",
+      "pass_name": "cold",
+      "candidates": [
+        "西安"
+      ],
+      "latency_ms": 327.0661999704316,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "我想吃一个新鲜的",
+      "pinyin": "pingguo",
+      "expected": "苹果",
+      "pass_name": "warm",
+      "candidates": [
+        "苹果",
+        "比唔过",
+        "披嗯果"
+      ],
+      "latency_ms": 768.8097000354901,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "这个问题需要认真",
+      "pinyin": "kaolv",
+      "expected": "考虑",
+      "pass_name": "warm",
+      "candidates": [
+        "考虑",
+        "搞捋"
+      ],
+      "latency_ms": 357.8655000310391,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "我们明天一起去",
+      "pinyin": "gongyuan",
+      "expected": "公园",
+      "pass_name": "warm",
+      "candidates": [
+        "公园",
+        "红谷庵",
+        "红谷厂"
+      ],
+      "latency_ms": 536.7594999843277,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "这次出差的目的地是",
+      "pinyin": "chongqing",
+      "expected": "重庆",
+      "pass_name": "warm",
+      "candidates": [
+        "重庆",
+        "崇庆"
+      ],
+      "latency_ms": 397.2856000182219,
+      "top1": true,
+      "hit_returned": true
+    },
+    {
+      "context": "陕西省的省会是",
+      "pinyin": "xi'an",
+      "expected": "西安",
+      "pass_name": "warm",
+      "candidates": [
+        "西安"
+      ],
+      "latency_ms": 369.7605000343174,
+      "top1": true,
+      "hit_returned": true
+    }
+  ],
+  "limitation": "Tiny hand-written smoke set; no general accuracy or P95 claim."
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "Real Qwen worker and mailbox protocol; not a Windows input-method UI test",
+  "rows": [
+    {
+      "pinyin": "pingguo",
+      "expected": "苹果",
+      "candidates": [
+        "苹果"
+      ],
+      "roundtrip_ms": 2656.0000000172295
+    },
+    {
+      "pinyin": "kaolv",
+      "expected": "考虑",
+      "candidates": [
+        "考虑"
+      ],
+      "roundtrip_ms": 561.9999999762513
+    }
+  ]
+}
